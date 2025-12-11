@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 150px;
+    padding: 10px 150px;
     margin-bottom: 80px;
 }
 
@@ -43,6 +43,7 @@ body {
     justify-content: space-between;
     align-items: center;
     
+    gap: 200px;
     padding: 0 150px;
 }
 
@@ -61,9 +62,10 @@ body {
 .hero p {
     color: #E5E7EB;
     font-size: 18px;
+    width: 450px;
 
     flex-wrap: wrap;
-    margin-top: 8px;
+    margin-top: 5px;
 }
 
 .hero-img {
@@ -74,4 +76,24 @@ body {
 .info-img {
     width: 100px;
     height: 100px;
+}
+
+button {
+    background-color:  hsl(217, 91%, 59%);
+    color: #F9FAF8;
+    text-decoration: none;
+    border-radius: 20px;
+
+    font-size: large;
+    font-weight: bold;
+
+    cursor: pointer;
+    border: none;
+    
+    padding: 10px 40px;
+}
+
+button:hover {
+    background-color: #5492F7;
+    /* transition-duration: 0.5s; */
 }
