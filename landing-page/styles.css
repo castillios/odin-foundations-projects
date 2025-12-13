@@ -116,6 +116,7 @@ h2 {
 }
 
 .illustration p {
+    color: #515257;
     width: 150px;
     padding-top: 10px; 
 }
@@ -129,21 +130,47 @@ h2 {
 }
 
 
-
 .testimonials {
     background-color: #E5E7EB;
-    font-size: 36px;
+
+    padding: 100px 550px;
 }
 
+.testimonials p {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
 
 
 #thor {
     font-size: 30px;
     font-weight: bold;
+
+    text-align: right;
 }
 
 .call {
+    display: flex;
     background-color: #F9FAF8;
+
+    justify-content: center;
+    align-content: center;
+    padding: 100px 0;
+}
+
+.action {
+    display: flex;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    /* width: 800px; */
+    padding: 45px 75px;
+    border-radius: 10px;
+
+    justify-content: center;
+
+    gap: 300px;
 }
 
 button {
@@ -165,3 +192,14 @@ button:hover {
     background-color: #5492F7;
 }
 
+.action button {
+    border:2px solid #E5E7EB;
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    color: #E5E7EB;
+
+    padding: 40px 0;
+}
