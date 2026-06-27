@@ -68,7 +68,7 @@ function playGame(rounds) {
 
     for (let i = 0; i < rounds; i++) {
         console.log(`Round ${i + 1}`)
-        updatedScores = playRound(getComputerChoice(), getComputerChoice(), scores.humanScore, scores.computerScore);
+        updatedScores = playRound(getHumanChoice(), getComputerChoice(), scores.humanScore, scores.computerScore);
         scores.humanScore = updatedScores[0];
         scores.computerScore = updatedScores[1];
     }
